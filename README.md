@@ -20,3 +20,15 @@ The core logic is contained in `structural_connectivity.py`. It is compatible wi
 ### Citation
 If this framework is utilized in academic or professional work, please cite:
 *(Author), "A Scale-Invariant Predictive Framework for Connectivity-Driven Phase Transitions in Complex Networks." (2026).*
+
+### Expected Output
+When running the `structural_connectivity.py` script, you should see an output similar to this:
+
+```text
+Running Structural Connectivity Framework (SCF)...
+----------------------------------------
+Control Parameter (Phi)      : 1.0205
+Giant Component (S1)         : 0.1530
+Structural Signal (SCS/S2)   : 0.8420
+----------------------------------------
+>>> Signal Peak Detected: Critical Transition Point.
